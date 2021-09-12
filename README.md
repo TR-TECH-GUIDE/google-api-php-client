@@ -53,7 +53,7 @@ This library relies on `google/apiclient-services`. That library provides up-to-
 
 #### Cleaning up unused services
 
-There are over 200 Google API services. The chances are good that you will not
+There are over 200+ Google API services. The chances are good that you will not
 want them all. In order to avoid shipping these dependencies with your code,
 you can run the `Google\Task\Composer::cleanup` task and specify the services
 you want to keep in `composer.json`:
